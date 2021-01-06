@@ -7,3 +7,7 @@ New-AzResourceGroupDeployment `
      -ResourceGroupName $rg `
      -TemplateFile '01-storage.json' `
      -storageName 'geekystorage2'
+
+
+     New-AzResourceGroupDeployment -Name 'geekydeplyment' -ResourceGroupName 'Ravi-Playground' -TemplateFile '06-orchestration-demo.json' -accountName 'geekystorage06012021'
+

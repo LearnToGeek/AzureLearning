@@ -6,7 +6,7 @@ New-AzResourceGroup `
     -Tag @{Owner="Ravi";Project="Learning"}
 
 $timestamp=get-date -f MM-dd-yyyy_HH_mm_ss
-$deploymentName="deployment_"+"$today"
+$deploymentName="deployment_"+"$timestamp"
 $templateFile = ".\08-multiple-resource-demo.json"
 $parameterFile = ".\08-multiple-resource-demo.parameters.json"
 

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appBaseName":{
+            "type": "string",
+            "minLength":1
+        },
+        "appBaseSkuName": {
+            "type": "string",
+            "defaultValue":F1,
+            "allowedValues": [
+                "F1",
+                "D1",
+                "B1",
+                "B2",
+                "B3"
+            ]
+        }
+    },
+    "functions": [],
+    "variables": {},
+    "resources": [],
+    "outputs": {}
+}

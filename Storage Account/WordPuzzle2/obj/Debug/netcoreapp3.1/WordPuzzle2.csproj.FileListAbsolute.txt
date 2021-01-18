@@ -1,0 +1,13 @@
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\obj\Debug\netcoreapp3.1\WordPuzzle2.csprojAssemblyReference.cache
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\obj\Debug\netcoreapp3.1\WordPuzzle2.AssemblyInfoInputs.cache
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\obj\Debug\netcoreapp3.1\WordPuzzle2.AssemblyInfo.cs
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\obj\Debug\netcoreapp3.1\WordPuzzle2.csproj.CoreCompileInputs.cache
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\bin\Debug\netcoreapp3.1\WordPuzzle2.exe
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\bin\Debug\netcoreapp3.1\WordPuzzle2.deps.json
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\bin\Debug\netcoreapp3.1\WordPuzzle2.runtimeconfig.json
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\bin\Debug\netcoreapp3.1\WordPuzzle2.runtimeconfig.dev.json
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\bin\Debug\netcoreapp3.1\WordPuzzle2.dll
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\bin\Debug\netcoreapp3.1\WordPuzzle2.pdb
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\obj\Debug\netcoreapp3.1\WordPuzzle2.dll
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\obj\Debug\netcoreapp3.1\WordPuzzle2.pdb
+C:\Azure\AzureLearning\Storage Account\WordPuzzle2\obj\Debug\netcoreapp3.1\WordPuzzle2.genruntimeconfig.cache

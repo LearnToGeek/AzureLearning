@@ -1,0 +1,96 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters":
+    {
+        "ServiceBusName": {
+            "type": "string",
+            "metadata": {
+                "description": "Globally unique service bus name"
+            }
+        },
+        "QueueName": {
+            "type": "string",
+            "metadata": {
+                "description": "service bus queue name"
+            }
+        },
+        "TopicName": {
+            "type": "string",
+            "metadata": {
+                "description": "service bus queue name"
+            }
+        },
+        "SubscriptionName": {
+            "type": "string",
+            "metadata": {
+                "description": "topic subscription name"
+            }
+        }
+
+    },
+    "functions": [],
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.ServiceBus/namespaces",
+            "apiVersion": "2018-01-01-preview",
+            "name":"[parameters('ServiceBusName')]",
+            "location":"[resourceGroup().location]",
+            "sku": {
+                "tier": "Standard",
+                "name": "Standard"
+            },
+            "tags": {
+                "Owner": "Ravi",
+                "Project":"Learning"
+            },
+            "resources": [
+                {
+                    "type": "queues",
+                    "apiVersion": "2017-04-01",
+                    "name": "[parameters('QueueName')]",
+                    "tags": {
+                        "Owner":"Ravi",
+                        "Project":"Learning"
+                    },
+                    "dependsOn": [
+                        "[resourceId('Microsoft.ServiceBus/namespaces', parameters('ServiceBusName'))]"
+                    ]
+                },
+                {
+                    "type": "topics",
+                    "apiVersion": "2017-04-01",
+                    "name": "[parameters('TopicName')]",
+                    "properties": {
+                        "status": "Active"
+                    },
+                    "tags": {
+                        "Owner": "Ravi",
+                        "Project":"Learning"
+                    },
+                    "resources": [
+                        {
+                            "type": "subscriptions",
+                            "apiVersion": "2017-04-01",
+                            "name": "[parameters('SubscriptionName')]",
+                            "properties": {
+                                "status": "Active",
+                                "rights": ["Listen"]
+                            },
+                            "dependsOn":[
+                                "[resourceId('Microsoft.ServiceBus/namespaces/topics', parameters('ServiceBusName'), parameters('TopicName'))]"
+                            ]
+                        }
+                    ],
+                    "dependsOn": [
+                        "[resourceId('Microsoft.ServiceBus/namespaces', parameters('ServiceBusName'))]"
+                    ]
+                }
+
+            ]
+
+        }
+    ],
+    "outputs": {}
+}

@@ -8,7 +8,7 @@ New-AzResourceGroup `
 
 
 $timestamp=get-date -f MM-dd-yyyy_HH_mm_ss
-$deploymentName="deployment_"+"$timestamp"
+$deploymentName="deployment_"+ $timestamp
 $templateFile = '.\09-copy-loop-demo.json'
 $parameterFile = '.\09-copy-loop-demo.parameters.json'
 

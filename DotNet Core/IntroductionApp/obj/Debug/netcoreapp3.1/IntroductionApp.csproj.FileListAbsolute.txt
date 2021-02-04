@@ -1,0 +1,13 @@
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\bin\Debug\netcoreapp3.1\IntroductionApp.exe
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\bin\Debug\netcoreapp3.1\IntroductionApp.deps.json
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\bin\Debug\netcoreapp3.1\IntroductionApp.runtimeconfig.json
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\bin\Debug\netcoreapp3.1\IntroductionApp.runtimeconfig.dev.json
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\bin\Debug\netcoreapp3.1\IntroductionApp.dll
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\bin\Debug\netcoreapp3.1\IntroductionApp.pdb
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\obj\Debug\netcoreapp3.1\IntroductionApp.csprojAssemblyReference.cache
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\obj\Debug\netcoreapp3.1\IntroductionApp.AssemblyInfoInputs.cache
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\obj\Debug\netcoreapp3.1\IntroductionApp.AssemblyInfo.cs
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\obj\Debug\netcoreapp3.1\IntroductionApp.csproj.CoreCompileInputs.cache
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\obj\Debug\netcoreapp3.1\IntroductionApp.dll
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\obj\Debug\netcoreapp3.1\IntroductionApp.pdb
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\obj\Debug\netcoreapp3.1\IntroductionApp.genruntimeconfig.cache

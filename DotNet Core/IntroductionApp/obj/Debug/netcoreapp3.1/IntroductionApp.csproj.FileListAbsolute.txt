@@ -11,3 +11,8 @@ C:\Azure\AzureLearning\DotNet Core\IntroductionApp\obj\Debug\netcoreapp3.1\Intro
 C:\Azure\AzureLearning\DotNet Core\IntroductionApp\obj\Debug\netcoreapp3.1\IntroductionApp.dll
 C:\Azure\AzureLearning\DotNet Core\IntroductionApp\obj\Debug\netcoreapp3.1\IntroductionApp.pdb
 C:\Azure\AzureLearning\DotNet Core\IntroductionApp\obj\Debug\netcoreapp3.1\IntroductionApp.genruntimeconfig.cache
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Azure\AzureLearning\DotNet Core\IntroductionApp\obj\Debug\netcoreapp3.1\IntroductionApp.csproj.CopyComplete

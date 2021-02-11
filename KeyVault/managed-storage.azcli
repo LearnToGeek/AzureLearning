@@ -1,0 +1,48 @@
+
+# Parameters
+id=$(((RANDOM%9999+1)))
+prefix="cmk"
+location="canadacentral"
+resource_group="$prefix-key-vault-$id"
+key_vault_name="$prefix-key-vault-$id"
+storage_account_name="${prefix}sa$id"
+
+
+# Create Resource Group
+az group create -n $resource_group -l $location -o table
+
+# Create Key Vault
+az keyvault create --resource-group $resource_group --name $key_vault_name --location $location --sku "Standard" --tags Owner=Ravi Project=Learning
+
+# List a KeyVault information
+#az keyvault show --name $key_vault_name -o table
+
+# Get KeyVaultAppId
+#az keyvault show --name $key_vault_name
+
+# Create storage account
+az storage account create --resource-group $resource_group --name $storage_account_name --location $location --sku "Standard_LRS"
+
+# Get Storage Account id
+sa_id=$(az storage account show -n $storage_account_name | jq -r .id)
+
+# Assigne permission to
+az role assignment create --role "Storage Account Key Operator Service Role" \
+    --assignee 'https://vault.azure.net' \
+    --scope $sa_id
+
+# List storge account keys
+#az storage account keys list -n $storage_account_name -g $resource_group
+
+# Give your user principal access to all storage account permissions, on your Key Vault instance
+az role assignment create --role "Storage Account Key Operator Service Role" \
+   --assignee 'https://vault.azure.net' \
+   --scope $sa_id
+
+# Create a key vault managed storage account
+az keyvault storage add --vault-name $key_vault_name -n $storage_account_name \
+    --active-key-name key1 \
+    --auto-regenerate-key \
+    --regeneration-period P90D \
+    --resource-id $sa_id
+

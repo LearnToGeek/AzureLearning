@@ -7,9 +7,12 @@ namespace IntroductionApp
     {
         static void Main(string[] args)
         {
-            BlobClient blobClient = new BlobClient("","demoContainer","demo.json");
+            string name = "ravi";
 
-            Console.WriteLine("Hello World!");
+            string result = name.ChangeStringCase();
+           // string result = StringHelper.ChangeStringCase(name);
+
+            Console.WriteLine(result);
         }
     }
 }

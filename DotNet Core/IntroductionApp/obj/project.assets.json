@@ -377,11 +377,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Azure\\AzureLearning\\DotNet Core\\IntroductionApp\\IntroductionApp.csproj",
+      "projectUniqueName": "C:\\Azure\\AzureLearning\\DotNet Core\\IntroductionApp\\IntroductionApp.csproj",
       "projectName": "IntroductionApp",
-      "projectPath": "c:\\Azure\\AzureLearning\\DotNet Core\\IntroductionApp\\IntroductionApp.csproj",
+      "projectPath": "C:\\Azure\\AzureLearning\\DotNet Core\\IntroductionApp\\IntroductionApp.csproj",
       "packagesPath": "C:\\Users\\rbhal\\.nuget\\packages\\",
-      "outputPath": "c:\\Azure\\AzureLearning\\DotNet Core\\IntroductionApp\\obj\\",
+      "outputPath": "C:\\Azure\\AzureLearning\\DotNet Core\\IntroductionApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rbhal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -396,6 +396,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -407,6 +408,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Azure.Storage.Blobs": {
             "target": "Package",

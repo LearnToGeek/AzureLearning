@@ -11,8 +11,4 @@
     <None Remove="wwwroot\NewFolder\**" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\css\" />
-  </ItemGroup>
-
 </Project>

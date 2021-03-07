@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Controllers
 {
-    [Route("Home")]
+    //[Route("Home")]
     //[Route("[controller]")] - Token rounting which match with Controller name
     //[Route("[controller]/[action]") - Token routing with match controller and action
     public class HomeController : Controller

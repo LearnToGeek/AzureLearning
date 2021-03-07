@@ -1,4 +1,5 @@
 ﻿using EmployeeManagement.Models;
+using EmployeeManagement.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -7,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Controllers
 {
+    [Route("Home")]
+    //[Route("[controller]")] - Token rounting which match with Controller name
+    //[Route("[controller]/[action]") - Token routing with match controller and action
     public class HomeController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
@@ -16,15 +20,35 @@ namespace EmployeeManagement.Controllers
             _employeeRepository = employeeRepository;
         }
 
-        public string Index()
+        // [Route("/")]
+         //[Route("Index")]
+        //[Route("[action]")]  - Token routing which match with method name
+        public ViewResult Index()
         {
-            return _employeeRepository.GetEmployee(1).Name;
+            var model = _employeeRepository.GetAllEmployee();
+            return View(model);
         }
 
-        public ViewResult Details(int Id)
+       
+        //[Route("[action]/{id?}")]
+        public ViewResult Details(int? Id)
         {
-            Employee model = _employeeRepository.GetEmployee(Id);
-            return View(model);
+
+            HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
+            {
+                Employee = _employeeRepository.GetEmployee(Id??1),
+                PageTitle = "Employee Details"
+            };
+
+            //Passing data to the view by ViewData (Loosely couple data binding)
+            //ViewData["Employee"] = model;
+            //ViewData["PageTitle"] = "Employee Details";
+
+            //Passing data to the view by ViewBag
+            //ViewBag.PageTitle = "Employee Details";
+
+
+            return View(homeDetailsViewModel);
         }
     }
 }

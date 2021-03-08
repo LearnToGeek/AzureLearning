@@ -5,19 +5,23 @@
 }
 
 
-<h3>@Model.PageTitle</h3>
 
-<div>
-    Id : @Model.Employee.Id
-</div>
-<div>
-    Name : @Model.Employee.Name
-</div>
-<div>
-    Email : @Model.Employee.Email
-</div>
-<div>
-    Department : @Model.Employee.Department
+<div class="card-deck">
+    <div class="card m-3">
+        <div class="card-header">
+            <h3>@Model.Employee.Name</h3>
+        </div>
+        <img class="card-img-top" src="~/images/noimage.png" />
+        <span> Id : @Model.Employee.Id</span>
+        <span> Email : @Model.Employee.Email</span>
+        <span> Department : @Model.Employee.Department</span>
+        <div class="card-footer text-center">
+            
+            <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Back</a>
+            <a href="#" class="btn btn-primary">Edit</a>
+            <a href="#" class="btn btn-danger">Delete</a>
+        </div>
+    </div>
 </div>
 
 @section Scripts{ 

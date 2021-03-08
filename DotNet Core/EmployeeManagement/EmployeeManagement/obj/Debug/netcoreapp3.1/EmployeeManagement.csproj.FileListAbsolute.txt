@@ -33,6 +33,5 @@ C:\Azure\AzureLearning\DotNet Core\EmployeeManagement\EmployeeManagement\obj\Deb
 C:\Azure\AzureLearning\DotNet Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Azure\AzureLearning\DotNet Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\_ViewStart.cshtml.g.cs
 C:\Azure\AzureLearning\DotNet Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Azure\AzureLearning\DotNet Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\_ViewImports.cshtml.g.cs
 C:\Azure\AzureLearning\DotNet Core\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\libman.json
 C:\Azure\AzureLearning\DotNet Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csprojAssemblyReference.cache

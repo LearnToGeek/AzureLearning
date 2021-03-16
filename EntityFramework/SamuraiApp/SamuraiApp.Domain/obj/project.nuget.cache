@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bvrBH75nLiHTxEjjQIKYY5/bVnjg1vAiWSvOuURGT2iTy/5wPsYotY3efvILtvGg9hVFWT2nb2W3FirgujeUdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Azure\\AzureLearning\\EntityFramework\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rbhal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rbhal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

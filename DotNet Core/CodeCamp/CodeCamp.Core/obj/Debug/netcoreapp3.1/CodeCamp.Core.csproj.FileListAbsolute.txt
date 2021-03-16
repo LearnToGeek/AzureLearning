@@ -1,0 +1,9 @@
+C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\bin\Debug\netcoreapp3.1\CodeCamp.Core.deps.json
+C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\bin\Debug\netcoreapp3.1\CodeCamp.Core.dll
+C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\bin\Debug\netcoreapp3.1\CodeCamp.Core.pdb
+C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\obj\Debug\netcoreapp3.1\CodeCamp.Core.AssemblyInfoInputs.cache
+C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\obj\Debug\netcoreapp3.1\CodeCamp.Core.AssemblyInfo.cs
+C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\obj\Debug\netcoreapp3.1\CodeCamp.Core.dll
+C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\obj\Debug\netcoreapp3.1\CodeCamp.Core.pdb
+C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\obj\Debug\netcoreapp3.1\CodeCamp.Core.csproj.CoreCompileInputs.cache
+C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\obj\Debug\netcoreapp3.1\CodeCamp.Core.csprojAssemblyReference.cache

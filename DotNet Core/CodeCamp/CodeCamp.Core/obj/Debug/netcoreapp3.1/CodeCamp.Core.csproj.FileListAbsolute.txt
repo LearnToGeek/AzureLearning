@@ -6,4 +6,3 @@ C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\obj\Debug\netcoreapp3.
 C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\obj\Debug\netcoreapp3.1\CodeCamp.Core.dll
 C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\obj\Debug\netcoreapp3.1\CodeCamp.Core.pdb
 C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\obj\Debug\netcoreapp3.1\CodeCamp.Core.csproj.CoreCompileInputs.cache
-C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Core\obj\Debug\netcoreapp3.1\CodeCamp.Core.csprojAssemblyReference.cache

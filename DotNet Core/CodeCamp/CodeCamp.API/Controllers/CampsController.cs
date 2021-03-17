@@ -24,11 +24,11 @@ namespace CodeCamp.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<CampModel[]>> Get()
+        public async Task<ActionResult<CampModel[]>> Get(bool includeTalks = false)
         {
             try
             {
-                var result = await _repository.GetAllCampsAsync();
+                var result = await _repository.GetAllCampsAsync(includeTalks);
 
                 return _mapper.Map<CampModel[]>(result);
             }
@@ -40,15 +40,32 @@ namespace CodeCamp.API.Controllers
         }
     
         [HttpGet("{code}")]
-        public async Task<ActionResult<CampModel>> Get(string CampId)
+        public async Task<ActionResult<CampModel>> Get(string code)
         {
             try
             {
-                var result = await _repository.GetCampAsync(CampId);
+                var result = await _repository.GetCampAsync(code);
 
                 if (result == null) return NotFound();
 
                 return _mapper.Map<CampModel>(result);
+            }
+            catch (Exception)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Database Failure");
+            }
+        }
+
+        [HttpGet("search")]
+        public async Task<ActionResult<CampModel[]>> SearchByDate(DateTime theDate, bool includeTalks = false)
+        {
+            try
+            {
+                var results = await _repository.GetAllCampsByEventDate(theDate, includeTalks);
+
+                if (!results.Any()) return NotFound();
+
+                return _mapper.Map<CampModel[]>(results);
             }
             catch (Exception)
             {

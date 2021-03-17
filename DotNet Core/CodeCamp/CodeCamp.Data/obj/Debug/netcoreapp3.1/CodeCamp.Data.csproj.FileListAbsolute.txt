@@ -10,3 +10,6 @@ C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Data\bin\Debug\netcoreapp3.
 C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Data\obj\Debug\netcoreapp3.1\CodeCamp.Data.dll
 C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Data\obj\Debug\netcoreapp3.1\CodeCamp.Data.pdb
 C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Data\obj\Debug\netcoreapp3.1\CodeCamp.Data.csproj.CoreCompileInputs.cache
+C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Data\bin\Debug\netcoreapp3.1\CodeCamp.Data.runtimeconfig.json
+C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Data\bin\Debug\netcoreapp3.1\CodeCamp.Data.runtimeconfig.dev.json
+C:\Azure\AzureLearning\DotNet Core\CodeCamp\CodeCamp.Data\obj\Debug\netcoreapp3.1\CodeCamp.Data.genruntimeconfig.cache

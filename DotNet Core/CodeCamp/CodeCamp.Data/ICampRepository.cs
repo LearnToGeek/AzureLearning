@@ -12,5 +12,6 @@ namespace CodeCamp.Data
         //Camps
         Task<Camp[]> GetAllCampsAsync(bool includeTalks = false);
         Task<Camp> GetCampAsync(string code,bool includeTalks = false);
+        Task<Camp[]> GetAllCampsByEventDate(DateTime dateTime, bool includeTalks = false);
     }
 }
